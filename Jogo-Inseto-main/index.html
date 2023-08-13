@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+        <title>Jogo</title>
+    </head>
+    <body>
+        <div class="tela">
+            <h1>Caçe os Insetos</h1>
+            <button class="btn" id="botaoStart">Jogar</button>
+        </div>
+        <div class="tela">
+            <h1>Qual seu inseto favorito?</h1>
+            <ul class="lista-inseto">
+                <li>
+                    <button class="escolher-inseto">
+                        <p>Mosquito</p>
+                        <img src="img/mosquito_PNG18153.png" alt="mosquito">
+                    </button>
+                </li>
+            <li>
+                <button class="escolher-inseto">
+                    <p>Rosiane</p>
+                    <img src="img/rosiane.png" alt="barata">
+                </button>
+            </li>
+            <li>
+                <button class="escolher-inseto">
+                    <p>Aranha</p>
+                    <img src="img/spider_PNG12.png" alt="aranha">
+                </button>
+            </li>
+            </ul>
+        </div>
+        <div class="tela-jogo-container">
+            <h3 id="tempo">Tempo: 00:00</h3>
+            <h3 id="Placar" >Placar: </h3>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
